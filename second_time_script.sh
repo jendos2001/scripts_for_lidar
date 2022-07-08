@@ -1,6 +1,6 @@
 #/bin/bash
 path=$PWD
-cd ros11
+cd ros1
 source ./devel/setup.bash
 gnome-terminal --tab --command="bash -c 'source $path/scripts/start_roscore_script.sh'"
 gnome-terminal --tab --command="bash -c 'source $path/scripts/rplidar_script.sh'"

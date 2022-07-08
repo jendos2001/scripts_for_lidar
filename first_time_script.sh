@@ -1,6 +1,6 @@
 #/bin/bash
 path=$PWD
-mkdir ros11 && cd ros11
+mkdir ros1 && cd ros1
 mkdir src && cd src
 git clone https://github.com/tu-darmstadt-ros-pkg/hector_slam
 git clone https://github.com/Slamtec/rplidar_ros
